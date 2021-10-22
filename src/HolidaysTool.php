@@ -1,8 +1,8 @@
 <?php
 
-namespace Godlord\Holidays;
+namespace Supremel\Holidays;
 
-use Godlord\Holidays\Config\ConfigHelper;
+use Supremel\Holidays\Config\ConfigHelper;
 
 class HolidaysTool
 {
