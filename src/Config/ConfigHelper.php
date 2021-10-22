@@ -25,7 +25,7 @@ class ConfigHelper
 
         $year = date('Y', $time);
         /** @var $config ConfigHelper */
-        $config = 'Godlord\Holidays\Config\Config' . $year;
+        $config = 'Supremel\Holidays\Config\Config' . $year;
         if (class_exists($config)) {
             $date = date('Y-m-d', $time);
             if (in_array($date, $config::HOLIDAYS, true)) {
