@@ -1,6 +1,6 @@
 <?php
 
-namespace Godlord\Holidays\Config;
+namespace Supremel\Holidays\Config;
 
 class Config2021
 {
