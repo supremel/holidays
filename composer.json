@@ -1,0 +1,19 @@
+{
+    "name": "supremel/holidays",
+    "description": "中国法定节假日/工作日",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Supremel\\Holidays\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "liyang",
+            "email": "570678467@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
