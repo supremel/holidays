@@ -35,7 +35,7 @@ class HolidaysTool
 
         // 获取是周几
         $week = date('N', $time);
-        $salt = in_array($week, [6, 7], true) ? self::IS_WEEKEND : self::IS_WEEKDAYS;
+        $salt = in_array($week, ["6", "7"], true) ? self::IS_WEEKEND : self::IS_WEEKDAYS;
 
         // 获取配置信息
         $configSalt = ConfigHelper::dateHolidaySalt($time);
